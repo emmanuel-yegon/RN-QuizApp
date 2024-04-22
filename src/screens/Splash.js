@@ -4,7 +4,10 @@ import React from "react";
 export default function Splash({ navigation }) {
   return (
     <View style={styles.container}>
-      <Image style={styles.image} source={require("../../assets/splash.png")} />
+      <Image
+        style={styles.image}
+        source={require("../../assets/splash2.jpg")}
+      />
       <Text
         style={{
           textAlign: "center",
